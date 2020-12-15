@@ -1,0 +1,32 @@
+{
+  "name": "bag-web-app",
+  "version": "0.0.1",
+  "description": "Bag Landing Page",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/bag-ai/bag-web-app.git/bag-web-app",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "@prettier/plugin-pug": "^1.8.1",
+    "@vuepress/plugin-google-analytics": "^1.4.1",
+    "createjs": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "exports-loader": "^1.1.1",
+    "imports-loader": "^1.2.0",
+    "prettier": "^2.1.2",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.8.3",
+    "vue-carousel": "^0.18.0",
+    "vuepress-plugin-container": "^2.1.3"
+  }
+}
